@@ -1,0 +1,22 @@
+# DataSource Configuration
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/resotech
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
+# Security Configuration
+#security:
+#  user:
+#    name: your_username
+#    password: your_password
+#  basic:
+#    enabled: true
+
+
+
